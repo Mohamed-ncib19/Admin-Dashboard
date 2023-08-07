@@ -27,7 +27,7 @@ const Login = () => {
               id="floating_name"
               className="block py-2.5 px-0 text-[#11364D] font-semibold tracking-wider w-full text-sm  bg-transparent border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-600 dark:focus:border-[#11364D] focus:outline-none focus:ring-0 focus:border-blue-600 peer"
               placeholder=" "
-              required
+              
               onChange={(e)=>{setAdminName(e.target.value)}}
             />
             <label
